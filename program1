@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Addition {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        int a = scanner.nextInt();
+
+        System.out.print("Enter second number: ");
+        int b  = scanner.nextInt();
+
+        int sum = a+b;
+        int sub = a-b;  
+        int mult = a*b;
+        int div = a/b;
+        int mod = a%b;
+ 
+    System.out.println("The add of " + a + " and " + b + " is: " + sum);
+    System.out.println("The sub of " + a + " and " + b + " is: " + sub);
+    System.out.println("The mul of " + a + " and " + b + " is: " + mult);
+    System.out.println("The div of " + a + " and " + b + " is: " + div);
+    System.out.println("The mod of " + a + " and " + b + " is: " + mod);
+            
+
+        scanner.close();
+    }
+}
+    
+    
