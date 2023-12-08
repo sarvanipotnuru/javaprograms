@@ -1,6 +1,6 @@
 # javaprograms
-i would like to post java programs from basic
 Arthmetic operations output
+
 ![Screenshot 2023-12-06 115625](https://github.com/sarvanipotnuru/javaprograms/assets/143246224/df0a431b-02c9-4725-b250-ae9aa1307ad9)
 Arthmetic operations output by using scanner
 ![Screenshot 2023-12-06 183002](https://github.com/sarvanipotnuru/javaprograms/assets/143246224/c63996a8-0d6c-40cf-bc6d-16aca3896833)
