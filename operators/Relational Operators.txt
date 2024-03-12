@@ -1,0 +1,40 @@
+RelationalOperators
+
+       These operators are used in  programming language construct or operator that tests or defines some kind of relation between two expressions/entites.
+	   These include numerical equality (e.g., 5 = 5) and inequalities (e.g., 4 ≥ 3).
+	   Java includes six relational operators:
+          == (equal to)
+         != (not equal to)
+         < (less than)
+         > (greater than)
+         <= (less than or equal to)
+         >= (greater than or equal to)
+
+
+
+
+
+
+
+class RelationalOperators {
+
+	// Main driver method
+	public static void main(String[] args)
+	{
+		// Initializing variables
+		int var1 = 20, var2 = 20, var3 = 10;
+
+		// Displaying var1, var2, var3
+		System.out.println("Var1 = " + var1);
+		System.out.println("Var2 = " + var2);
+		System.out.println("Var3 = " + var3);
+
+		// Comparing var1 and var2 and
+		// printing corresponding boolean value
+		System.out.println(var1 >= var2);
+
+		// Comparing var2 and var3 and
+		// printing corresponding boolean value
+		System.out.println(var2 >= var3);
+	}
+}

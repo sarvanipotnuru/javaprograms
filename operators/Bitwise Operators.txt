@@ -1,0 +1,47 @@
+Shift operators 
+
+In Java, shift operators are the special type of operators that work on the bits of the data. 
+These operators are used to shift the bits of the numbers from left to right or right to left depending on the type of shift operator used.
+
+Left shift
+
+
+
+class LeftShift{
+	public static void main(String[] args)
+	{
+		byte a = 64, b;
+		int i;
+
+		i = a << 2;
+		b = (byte)(a << 2);
+		System.out.println("Original value of a: " + a);
+		System.out.println("i and b: " + i + " " + b);
+	}
+}
+/*output
+Original value of a: 64
+i and b: 256 0
+*/
+
+
+Right shift
+
+
+class Right Shift
+	{
+	public static void main (String[] args) {
+		{		 
+		int number = 8;
+	
+		// 2 bit signed right shift
+		int Ans = number >> 2;
+	
+		System.out.println(Ans); 
+		}
+	}
+}
+
+/*output
+2
+

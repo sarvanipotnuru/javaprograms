@@ -1,0 +1,33 @@
+Assignment operators
+    
+	That means we are assigning the values to the variables the operators are +=,-=,*=,/=,%=
+	if you take a as variable then we are performing a operation as a same time we are assigning the variables
+	The program will be subtraction 
+	
+	    class Assignment {
+	public static void main(String[] args)
+	{
+
+		// Declaring variables
+		int num1 = 11, num2 = 20;
+
+		System.out.println("num1 = " + num1);
+		System.out.println("num2 = " + num2);
+
+		// Subtracting & Assigning values
+		num1 -= num2;
+		
+
+		// Displaying the assigned values
+		System.out.println( num1);
+		
+	}
+}
+
+
+
+/*output
+num1 = 11
+num2 = 20
+-9
+*/
